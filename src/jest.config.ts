@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 export default {
-  moduleFileExtensions: ['js', 'json', 'ts'],
+  moduleFileExtensions: ['js', 'json', 'ts', 'mts'],
   rootDir: 'src',
   testRegex: '.*\\.spec\\.ts$',
   transform: {
@@ -9,6 +9,4 @@ export default {
   collectCoverageFrom: ['**/*.(t|j)s'],
   coverageDirectory: '../coverage',
   testEnvironment: 'node',
-  "bail": 1,
-  "verbose": true
 };
